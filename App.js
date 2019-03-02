@@ -10,9 +10,7 @@ export default class App extends Component<Props> {
   render() {
     return (
       <Home>
-        <Header>
-          <Text>ola k ase</Text>
-        </Header>
+        <Header />
         <Text>buscador</Text>
         <Text>categorias</Text>
         <SuggestionList />
