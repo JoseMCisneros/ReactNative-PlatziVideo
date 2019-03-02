@@ -3,6 +3,7 @@ import {Text,} from 'react-native';
 
 import Home from './src/screens/containers/home';
 import Header from './src/sections/components/header';
+import SuggestionList from './src/videos/containers/suggestion-list';
 
 type Props = {};
 export default class App extends Component<Props> {
@@ -12,10 +13,9 @@ export default class App extends Component<Props> {
         <Header>
           <Text>ola k ase</Text>
         </Header>
-        <Text>header</Text>
         <Text>buscador</Text>
         <Text>categorias</Text>
-        <Text>sugerencias</Text>
+        <SuggestionList />
       </Home>
     );
   }
